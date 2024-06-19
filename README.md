@@ -28,7 +28,7 @@ By using PayPro, groups can avoid the awkwardness associated with financial imba
 
 - ## Stretch Goals
 - **Notifications**: Automatic reminders for outstanding payments, ensuring that all debts are settled on time.
-- - **Group Dashboards**: Users can create and manage multiple groups, each with its own unique dashboard for monitoring shared financial activities.
+- **Group Dashboards**: Users can create and manage multiple groups, each with its own unique dashboard for monitoring shared financial activities.
 
 
 ## Technologies Used
