@@ -5,31 +5,19 @@
 
 ---
 
-## Problem Statement
-
-Managing shared expenses in any group setting can be challenging. Traditional methods often lead to confusion over who owes what, how much has been paid, and whether any debts are outstanding. This can complicate discussions about finances and may cause discomfort or disagreements even among close individuals.
-
----
-## Solution
-
-PayPro addresses these challenges by offering:
-
-- **Transparent Tracking**: Every transaction is recorded and instantly visible to all involved parties, ensuring transparency in financial dealings.
-- **Balanced Settlements**: Automatically calculates how much each person owes or is owed, simplifying the process of balancing accounts among group members.
-- **Easy Reconciliation**: Provides tools for users to easily settle their balances through integrated payment solutions, reducing the hassle of manual calculations and payments.
-
-By using PayPro, groups can avoid the awkwardness associated with financial imbalances and maintain harmony while managing their shared expenses effectively.
-
 ## Core Features
 
 - **User Authentication**: Secure login and registration system to ensure that financial data is accessible only to authorized users.
 - **Expense Logging**: Add and track every shared expense with details about who paid and who owes, ensuring everyone is on the same page.
 - **Automated Calculations**: The system automatically calculates how much each member owes or is owed, facilitating easy and fair settlements.
 
+---
+
 - ## Stretch Goals
 - **Notifications**: Automatic reminders for outstanding payments, ensuring that all debts are settled on time.
 - **Group Dashboards**: Users can create and manage multiple groups, each with its own unique dashboard for monitoring shared financial activities.
 
+---
 
 ## Technologies Used
 
