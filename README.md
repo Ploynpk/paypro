@@ -3,7 +3,6 @@
 
 > PayPro is a financial management application specifically designed to manage and track shared expenses, a task that can often be tedious and complex when handled manually. In many social contexts—whether among roommates, friends, or within families—financial transactions involving shared costs can lead to misunderstandings or imbalances that may strain relationships. PayPro simplifies this process by providing a clear, intuitive platform for recording, monitoring, and settling shared expenses in an equitable manner.
 
----
 
 ## Core Features
 
@@ -11,13 +10,11 @@
 - **Expense Logging**: Add and track every shared expense with details about who paid and who owes, ensuring everyone is on the same page.
 - **Automated Calculations**: The system automatically calculates how much each member owes or is owed, facilitating easy and fair settlements.
 
----
 
 - ## Stretch Goals
 - **Notifications**: Automatic reminders for outstanding payments, ensuring that all debts are settled on time.
 - **Group Dashboards**: Users can create and manage multiple groups, each with its own unique dashboard for monitoring shared financial activities.
 
----
 
 ## Technologies Used
 
