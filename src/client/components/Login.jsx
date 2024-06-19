@@ -39,7 +39,7 @@ const Login = () => {
     const handleLogin = async (e) => {
         e.preventDefault();
         try {
-            const response = await fetch('http://localhost:3001/login', {
+            const response = await fetch('http://localhost:3001/api/login', {
                 headers: {
                     'Content-Type': 'application/json'
                 },
