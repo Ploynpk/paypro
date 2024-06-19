@@ -15,6 +15,8 @@ const userController = require('./controllers/userController.js');
 const PORT = process.env.PORT || 3001;
 const mongoURI = process.env.MONGO_URL;
 
+console.log('mongoURI --> ', mongoURI)
+
 mongoose.connect(mongoURI)
   .then(() => console.log('MongoDB connected...'))
   .catch(err => console.log(err));
@@ -24,15 +26,15 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(cors());
 // signup
-app.post('/signup', userController.signup, (req, res) => {
+app.post('/api/signup', userController.signup, (req, res) => {
   // send created successful back
   res.status(200).send({ user: res.locals.user, token: res.locals.token });
 });
 
 // login // come back and change again!!
-app.post('/login', userController.verifyUser, (req, res) => {
+app.post('/api/login', userController.verifyUser, (req, res) => {
   // send created successful back
-  res.status(200).send('Welcome Back');
+  res.status(200).send({ message: "Welcome Back" });
 });
 
 // app.get('/expense', authController.auth , (req, res) => {

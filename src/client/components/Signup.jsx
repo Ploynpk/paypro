@@ -33,7 +33,7 @@ const Signup = () => {
     e.preventDefault()
     try {
       // endpoint /signup
-      const response = await fetch('http://localhost:3001/signup', {
+      const response = await fetch('http://localhost:3001/api/signup', {
         // send headers
         headers: {
           'Content-Type': 'application/json',

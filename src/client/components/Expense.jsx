@@ -10,44 +10,44 @@ import { v4 as uuidv4 } from 'uuid'
 // send onConfirm to the App to render with ONCONFIRM WAS CLICKED!!!
 const Expense = (props) => {
   // onConfirm
-  console.log('this is the props-->', props)
+  console.log('this is the props-->', props);
   //  enter a description input element --> onchange value as title
-  const [title, setTitle] = useState('')
+  const [title, setTitle] = useState('');
 
   // enter amout input element --> onchange value as amount
-  const [amount, setAmount] = useState('') // State เพื่อเก็บค่าของ input สำหรับจำนวนเงิน
+  const [amount, setAmount] = useState(''); // State เพื่อเก็บค่าของ input สำหรับจำนวนเงิน
 
   // state for options in the option box
-  const [selectedOption, setSelectedOption] = useState('')
+  const [selectedOption, setSelectedOption] = useState('');
 
   // use navigate to change the route to transaction and report page
   // const navigate = useNavigate(); // Hook เพื่อทำการนำทาง
 
   // set the state to be an empty array to store the data expense that was passed in
   // when the confirm button was clicked
-  const [expenseData, setExpenseData] = useState([])
+  const [expenseData, setExpenseData] = useState([]);
 
   // function to handle input from description
   const inputTitle = (input) => {
     // pass in event
-    setTitle(input.target.value)
-  }
+    setTitle(input.target.value);
+  };
 
   // handle the data?
-  function handleExpenseData(data) {
-    setExpenseData([data, ...expenseData])
-  }
+  const handleExpenseData = (data) => {
+    setExpenseData([data, ...expenseData]);
+  };
 
   // function to handle amount input // pass in event from button
-  function inputAmount(input) {
+ const inputAmount = (input) => {
     // the value that was passed
-    const value = input.target.value
+    const value = input.target.value;
     if (isNaN(value) || value < 0) {
-      alert('Please enter a valid positive number')
+      alert('Please enter a valid positive number');
     } else {
-      setAmount(value)
+      setAmount(value);
     }
-  }
+  };
 
   // NOT DONE YET!!
   // function for handling options
@@ -55,12 +55,12 @@ const Expense = (props) => {
   // percentage
   // manually value
   // be able to add more details and comment?
-  function options(event) {
-    setSelectedOption(event.target.value)
-  }
+ const options = (event) => {
+    setSelectedOption(event.target.value);
+  };
 
   //when the confirm button was clicked!
-  function handleConfirm() {
+ const handleConfirm = () => {
     // use .trim() for the while space
     // check if amout and select option was choose
     if (title.trim() && amount && selectedOption !== '') {
@@ -78,21 +78,21 @@ const Expense = (props) => {
       }
       // when the confirm button was clicked // send to expenseData passing to the transaction fuction to render them
       // use onConfirm
-      props.onConfirm(expenseData)
+      props.onConfirm(expenseData);
       // set input of description and amount back to empty string agiain after the data has been sent!
-      setTitle('')
-      setAmount('')
+      setTitle('');
+      setAmount('');
     }
   }
 
   // function to handle cancel button
   // can i do use dispatch instead??
-  function handleCancel() {
+  const handleCancel = () => {
     // reset the description input element to be empty
-    setTitle('')
+    setTitle('');
     // reset the amout input element to be an empty
-    setAmount('')
-  }
+    setAmount('');
+  };
 
   //RENDER
   // user profile // username,email,password
@@ -163,4 +163,4 @@ const Expense = (props) => {
   )
 }
 
-export default Expense
+export default Expense;
