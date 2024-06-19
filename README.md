@@ -1,7 +1,7 @@
 # PayPro
 ![PayPro](https://github.com/Ploynpk/paypro/blob/1e561e91a105d31c3c1d6689198c18aae4f397f6/src/client/img/logo3.png?raw=true)
 
-> PayPro is a financial management application specifically designed to manage and track shared expenses, a task that can often be tedious and complex when handled manually. In many social contexts—whether among roommates, friends, or within families—financial transactions involving shared costs can lead to misunderstandings or imbalances that may strain relationships. PayPro simplifies this process by providing a clear, intuitive platform for recording, monitoring, and settling shared expenses in an equitable manner.
+> PayPro is a financial management web application specifically designed to manage and track shared expenses, a task that can often be tedious and complex when handled manually. In many social contexts—whether among roommates, friends, or within families—financial transactions involving shared costs can lead to misunderstandings or imbalances that may strain relationships. PayPro simplifies this process by providing a clear, intuitive platform for recording, monitoring, and settling shared expenses in an equitable manner.
 
 
 ## Core Features
