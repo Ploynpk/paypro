@@ -1,0 +1,96 @@
+body {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0 auto;
+  color: rgba(49, 45, 45, 0.941);
+}
+
+#year {
+  padding: 10px;
+  margin-right: 500px;
+}
+
+#show-report {
+  margin-left: 500px;
+  margin-top: 10px;
+}
+
+#head-tran {
+  text-align: center;
+  margin-top: 40px;
+}
+
+table {
+  padding: 5px;
+}
+
+td {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+#lent {
+  text-align: right;
+  color: rgb(22, 166, 29);
+}
+
+#borrow {
+  color: red;
+
+}
+
+#td-title {
+  padding: 15px;
+}
+
+#money {
+  border: none;
+  width: 30px;
+  height: 30px;
+  box-shadow: 3px 3px 3px 3px rgba(105, 100, 100, 0.784);
+  cursor: pointer;
+}
+
+
+#td-title p {
+  color: rgba(40, 40, 189, 0.744);
+  font-size: 12px;
+}
+
+#td-date {
+  padding-left: 20px;
+}
+
+#td-time {
+  font-size: 14px;;
+}
+
+.lent-report {
+  padding: 5px;
+  border-right: 5px solid green;
+  background-color: rgba(105, 191, 157, 0.242);
+  border-radius: 10px;
+  font-size: 14px;
+  margin-right: 10px;
+  width: auto;
+}
+
+.borrow-report {
+  padding: 5px;
+  border-right: 5px solid red;
+  background-color: rgba(208, 131, 150, 0.206);
+  border-radius: 10px;
+  font-size: 14px;
+  margin-right: 10px;
+  width: auto;
+}
+
+.even-report {
+  padding: 5px; /* ตั้งค่า padding เพื่อสร้างพื้นที่ในกล่อง */
+  border-right: 5px solid blue; /* ตั้งค่าขอบสีด้านขวาของกล่อง */
+  background-color: rgba(173, 216, 230, 0.26); /* ตั้งค่าสีพื้นหลังของกล่อง */
+  border-radius: 10px;
+  font-size: 14px;
+  margin-right: 10px;
+  width: auto;
+}
