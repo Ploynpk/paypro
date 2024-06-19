@@ -11,7 +11,7 @@
 - **Automated Calculations**: The system automatically calculates how much each member owes or is owed, facilitating easy and fair settlements.
 
 
-- ## Stretch Goals
+## Stretch Goals
 - **Notifications**: Automatic reminders for outstanding payments, ensuring that all debts are settled on time.
 - **Group Dashboards**: Users can create and manage multiple groups, each with its own unique dashboard for monitoring shared financial activities.
 
