@@ -15,7 +15,7 @@ const userController = require('./controllers/userController.js');
 const PORT = process.env.PORT || 3001;
 const mongoURI = process.env.MONGO_URL;
 
-console.log('mongoURI --> ', mongoURI)
+//console.log('mongoURI --> ', mongoURI)
 
 mongoose.connect(mongoURI)
   .then(() => console.log('MongoDB connected...'))
