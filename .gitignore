@@ -2,6 +2,5 @@
 Thumbs.db
 .env
 /server/.env
-node_modules/
-/dist
-/build
+node_modules
+dist
