@@ -21,5 +21,5 @@
 - **Frontend**: React.js for a dynamic and responsive user interface.
 - **Backend**: Node.js and Express.js to handle API requests and server-side logic.
 - **Database**: MongoDB for storing user data and transaction records efficiently.
-- **Authentication**: Implement JWT (JSON Web Tokens) for secure and scalable user authentication.
+- **Authentication**: Use bcrypt for secure password hashing. JWT (JSON Web Tokens) setup is in progress for scalable user authentication, but it is not functional yet.
 - **Styling**: Utilize CSS and modern UI frameworks like Material-UI for a clean and user-friendly design.
