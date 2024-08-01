@@ -23,3 +23,12 @@
 - **Database**: MongoDB for storing user data and transaction records efficiently.
 - **Authentication**: Use bcrypt for secure password hashing. JWT (JSON Web Tokens) setup is in progress for scalable user authentication, but it is not functional yet.
 - **Styling**: Utilize CSS and modern UI frameworks like Material-UI for a clean and user-friendly design.
+
+## How to get start
+
+- copy and clone this repository
+```
+https://github.com/Ploynpk/paypro.git
+ ```
+- npm install 
+- npm start
