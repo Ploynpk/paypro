@@ -30,7 +30,7 @@
 ```
 https://github.com/Ploynpk/paypro.git
  ```
-- npm install 
-- npm start
+1. npm install 
+2. npm start
  - If you also want to be able to see your server terminal 
    - cd server -> nodemon server.js
