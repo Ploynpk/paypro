@@ -26,14 +26,62 @@
 
 ## How to get started
 
-- copy this url to your terminal then 'git clone' this repository
-```
-https://github.com/Ploynpk/paypro.git
- ```
-1. npm install 
-2. npm start
- - If you also want to be able to see your server terminal 
-   - cd server -> nodemon server.js
-  ## Building the Project for Production
-  npm run build 
-  - This will generate the dist directory and the bundle.js file.
+ **Installation**
+
+1. **Clone the repository:**
+
+    ```sh
+    git clone https://github.com/Ploynpk/paypro.git
+    ```
+
+2. **Navigate into the project directory:**
+
+    ```sh
+    cd paypro
+    ```
+
+3. **Install the necessary dependencies:**
+
+    ```sh
+    npm install
+    ```
+
+## Running the Project
+
+4. **Start the development server:**
+
+    ```sh
+    npm start
+    ```
+   
+## Running the Server Terminal
+ To run the server terminal:
+
+1. **Navigate to the server directory:**
+
+    ```sh
+    cd server
+    ```
+
+2. **Start the server using nodemon:**
+
+    ```sh
+    nodemon server.js
+    ```
+
+     
+ ## Building the Project for Production
+
+To build the project and serve the static files:
+
+1. **Build the project:**
+
+    ```sh
+    npm run build
+    ```
+
+    This will generate the `dist` directory and the `bundle.js` file.
+
+## Contributing
+
+Contributions are welcome! Please fork the repository and submit a pull request for any improvements.
