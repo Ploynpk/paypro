@@ -26,7 +26,7 @@
 
 ## How to get started
 
-- copy and clone this repository
+- copy this url to your terminal then 'git clone' this repository
 ```
 https://github.com/Ploynpk/paypro.git
  ```
