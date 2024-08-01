@@ -46,7 +46,7 @@
     npm install
     ```
 
-## Running the Project
+**Running the Project**
 
 4. **Start the development server:**
 
@@ -54,7 +54,7 @@
     npm start
     ```
    
-## Running the Server Terminal
+**Running the Server Terminal**
  To run the server terminal:
 
 1. **Navigate to the server directory:**
