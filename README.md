@@ -34,3 +34,6 @@ https://github.com/Ploynpk/paypro.git
 2. npm start
  - If you also want to be able to see your server terminal 
    - cd server -> nodemon server.js
+  ## Building the Project for Production
+  npm run build 
+  - This will generate the dist directory and the bundle.js file.
