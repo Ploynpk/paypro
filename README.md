@@ -5,7 +5,7 @@
 
 
 ## Core Features
-
+![PayPro Demo](public/home.png)
 - **User Authentication**: Secure login and registration system to ensure that financial data is accessible only to authorized users.
 - **Expense Logging**: Add and track every shared expense with details about who paid and who owes, ensuring everyone is on the same page.
 - **Automated Calculations**: The system automatically calculates how much each member owes or is owed, facilitating easy and fair settlements.
