@@ -23,3 +23,65 @@
 - **Database**: MongoDB for storing user data and transaction records efficiently.
 - **Authentication**: Use bcrypt for secure password hashing. JWT (JSON Web Tokens) setup is in progress for scalable user authentication, but it is not functional yet.
 - **Styling**: Utilize CSS and modern UI frameworks like Material-UI for a clean and user-friendly design.
+
+## How to get started
+
+ **Installation**
+
+1. **Clone the repository:**
+
+    ```sh
+    git clone https://github.com/Ploynpk/paypro.git
+    ```
+
+2. **Navigate into the project directory:**
+
+    ```sh
+    cd paypro
+    ```
+
+3. **Install the necessary dependencies:**
+
+    ```sh
+    npm install
+    ```
+
+**Running the Project**
+
+4. **Start the development server:**
+
+    ```sh
+    npm start
+    ```
+   
+**Running the Server Terminal**
+ To run the server terminal:
+
+1. **Navigate to the server directory:**
+
+    ```sh
+    cd server
+    ```
+
+2. **Start the server using nodemon:**
+
+    ```sh
+    nodemon server.js
+    ```
+
+     
+ ## Building the Project for Production
+
+To build the project and serve the static files:
+
+1. **Build the project:**
+
+    ```sh
+    npm run build
+    ```
+
+    This will generate the `dist` directory and the `bundle.js` file.
+
+## Contributing
+
+Contributions are welcome! Please fork the repository and submit a pull request for any improvements.
